@@ -1,0 +1,36 @@
+{
+  "name": "grunt-gabarito-selenium",
+  "description": "Gabarito-selenium plugin for grunt.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/pablo-cabrera/grunt-gabarito-selenium",
+  "author": {
+    "name": "Pablo Cabrera",
+    "email": "pablo.cabrera.munoz@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pablo-cabrera/grunt-gabarito-selenium.git"
+  },
+  "licenses": "MIT",
+  "scripts": {
+    "test": "grunt"
+  },
+
+  "peerDependencies": {
+    "gabarito": "^0.0.1",
+    "grunt-gabarito": "^0.0.4",
+    "gabarito-selenium": "^0.0.1"
+  },
+  "main": "./tasks/task.js",
+  "keywords": [
+    "gruntplugin gabarito selenium"
+  ],
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "gabarito": "^0.0.1",
+    "gabarito-selenium": "^0.0.1",
+    "grunt-gabarito": "^0.0.4",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-jscs": "^3.0.1"
+  }
+}
