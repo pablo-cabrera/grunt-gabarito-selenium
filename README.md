@@ -23,7 +23,7 @@ grunt.initConfig({
                 "type": "selenium",
                 "capabilities": {
                     "browserName": "firefox",
-                    "version: "47"
+                    "version": "47"
                 },
                 "hub": "localhost:4444",
                 "host": "localhost"
